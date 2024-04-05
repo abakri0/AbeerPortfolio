@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "lexend";
+   src: url("./assets/fonts/Lexend-VariableFont_wght.ttf");
+  }
+  
+
+*{
+  direction: rtl;
+  font-family: "lexend";
+}
