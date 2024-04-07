@@ -1,0 +1,34 @@
+.ProjectSection {
+    background-image: url(../../assets/img/ProjectBgImg.png);
+    gap: 2rem;
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    /* .ProjectSection {
+        
+    } */
+
+    .ProjectSectiontext {
+       
+        text-align: center;
+    }
+
+
+
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .ProjectSection {
+        height: 600px;
+    }
+
+    .ProjectSectiontext {
+        margin-top: 30px;
+        text-align: center;
+
+    }
+
+}
+
+/*<------------------------------->*/

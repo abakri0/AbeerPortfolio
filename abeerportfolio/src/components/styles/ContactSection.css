@@ -1,0 +1,105 @@
+
+.Contactheader {
+    margin-top: 74px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .ContactSection {
+    gap: 2rem;
+    padding: 2rem;
+    direction: rtl;
+    display: grid;
+    grid-template-columns: 1fr;  /* Single column for smaller screens */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  /* Add some space between elements */
+  }
+  
+  .contactText {
+    justify-content: center;
+  }
+  
+  .contactImg {
+    height: auto;  /* Allow image to adapt to content */
+    width: 100%;   /* Fill available width */
+  }
+  
+  .FieldArea {
+    border: 3px solid;
+    border-image: linear-gradient(to right, #EAAEC7, #FF2380) 1;
+    display: block;
+  }
+  
+  .FieldBtn {
+    border: 10px solid #FF2380;
+    border-radius: 0px;
+    width: 100%;   /* Make button fill available width */
+  }
+  
+  /* Media query for screens wider than 768px (tablets and larger) */
+  @media (min-width: 768px) {
+  
+    /* Styles for larger screens can be overridden here if needed */
+  
+    .Contactheader {
+      /* Optional: Adjust margin-top for larger screens */
+    }
+  
+    .ContactSection {
+      grid-template-columns: 1fr 2fr;  /* Restore two columns */
+    }
+  
+    .contactImg {
+      width: 380px;  /* Set a specific width for images */
+    }
+  
+    .FieldBtn {
+      width: 209px;  /* Restore specific button width */
+    }
+  }
+  
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .Contactheader {
+        margin-top: 111px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+ 
+    
+    .ContactSection {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        justify-content: center;
+        align-items: center;
+      }
+    
+
+    .contactText {
+        justify-content: center;
+    }
+
+    .contactImg {
+        height: fit-content;
+        width: 380px;
+
+
+    }
+
+    .FieldArea {
+        border: 3px solid;
+        border-image: linear-gradient(to right, #EAAEC7, #FF2380) 1;
+        display: block;
+    }
+.FieldBtn{
+     border: 10px solid #FF2380;
+     border-radius: 0px;
+     width: 209px;
+}
+
+}

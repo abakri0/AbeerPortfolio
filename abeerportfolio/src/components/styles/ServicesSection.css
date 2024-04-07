@@ -1,0 +1,46 @@
+.services{
+    gap: 2rem;
+    padding: 2rem;
+    background-color: rgb(255, 35, 128 , .4);
+    direction: rtl;
+}
+
+@media (max-width: 768px) {
+    
+
+    .cardtextSection {
+        font-size: 10px;
+    }
+
+    .CardContainer{
+        margin-top: 20px;
+       display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 15px;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .services {
+        align-items: center; 
+        height: 600px;
+    }
+
+    .cardtextSection {
+        justify-content: center;
+       margin-top: 103px;
+        
+    }
+    .CardContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        margin-top: 72px;
+    }
+}
+
+
+/*<------------------------------->*/
+
